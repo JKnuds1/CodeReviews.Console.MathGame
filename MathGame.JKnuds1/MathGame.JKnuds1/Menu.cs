@@ -21,6 +21,11 @@
                                     q - Quit.");
 
                 string? menuChoice = Console.ReadLine();
+                while(menuChoice == null) 
+                {
+                    Console.WriteLine("Wrong Input try again.");
+                    menuChoice = Console.ReadLine();
+                        }
 
                 switch (menuChoice.ToLower().Trim())
                 {
