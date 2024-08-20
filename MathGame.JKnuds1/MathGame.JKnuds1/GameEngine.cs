@@ -112,7 +112,6 @@
 
         internal void DivisionGame(int numberOfLevels)
         {
-            Random random = new Random();
             int score = 0;
 
             for (int i = 0; i < numberOfLevels; i++)
